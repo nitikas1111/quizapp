@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; 
+    font-family: Arial, sans-serif;
+}
+
+.instructions {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.instructions h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.instructions p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.instructions ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.instructions li {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 30px;
+}
+
+.link-container span {
+    margin: 10px;
+}
+
+.link-container a {
+    padding: 15px 30px;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #007BFF; 
+    border-radius: 5px; 
+}
+
+.link-container a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.link-container a:active {
+    background-color: #0056b3;
+    color: #fff;
+}

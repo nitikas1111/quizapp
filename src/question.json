@@ -1,0 +1,123 @@
+[
+    {
+      "question": "Which of the following is the correct name of React.js?",
+      "optionA": "React",
+      "optionB": "ReactJS",
+      "optionC": "React.js",
+      "optionD": "All of above",
+      "answer": "All of above"
+    },
+    {
+      "question": "Which of the following command is used to install create-react-app?",
+      "optionA": "npm install -g create-react-app",
+      "optionB": "npm install create-react-app",
+      "optionC": "npm install -f create-react-app",
+      "optionD": "install -g create-react-app",
+      "answer": "npm install -g create-react-app"
+    },
+    {
+        "question": "What of the following is used in React.js to increase performance?",
+        "optionA": "Real DOM",
+        "optionB": "Virtual DOM",
+        "optionC": "Both A and B",
+        "optionD": "None of the above",
+        "answer": "Virtual DOM"
+      },
+      {
+        "question": "A class is a type of function, but instead of using the keyword function to initiate it, which keyword do we use?",
+        "optionA": "Constructor",
+        "optionB": "Class",
+        "optionC": "Object",
+        "optionD": "DataObject",
+        "answer": "Class"
+      },
+      {
+        "question": "Which of the following acts as the input of a class-based component?",
+        "optionA": "Class",
+        "optionB": "Factory",
+        "optionC": "Render",
+        "optionD": "Props",
+        "answer": "Props"
+      },
+      {
+        "question": "Which of the following keyword is used to create a class inheritance?",
+        "optionA": "Create",
+        "optionB": "Inherits",
+        "optionC": "Extends",
+        "optionD": "This",
+        "answer": "Extends"
+      },
+      {
+        "question": "What is the default port where webpack-server runs?",
+        "optionA": "3000",
+        "optionB": "8080",
+        "optionC": "6000",
+        "optionD": "4000",
+        "answer": "8080"
+      },
+      {
+        "question": "How many numbers of elements a valid react component can return?",
+        "optionA": "1",
+        "optionB": "2",
+        "optionC": "4",
+        "optionD": "5",
+        "answer": "1"
+      },
+      {
+        "question": "What is a state in React?",
+        "optionA": "A permanent storage", 
+        "optionB": "Internal storage of the component",
+        "optionC": "External storage of the component",
+        "optionD": "None of the above",
+        "answer": "Internal storage of the component"
+      },
+      {
+        "question": "What are the two ways to handle data in React?",
+        "optionA": "State & Props", 
+        "optionB": "Services & Components",
+        "optionC": "State & Services",
+        "optionD": "State & Component",
+        "answer": "State & Props"
+      },
+      {
+        "question": "Which of the following option is correct in the case of the Babel?",
+        "optionA": "Babel is a Compile",
+        "optionB": "Babel is a Transpilar",
+        "optionC": "None of the above",
+        "optionD": "Both A and B are correct",
+        "answer": "Both A and B are correct"
+      },
+      {
+        "question": "Which of the following is used to pass data to a component from outside in React.js?",
+        "optionA": "SetState", 
+        "optionB": "Render with arguments",
+        "optionC": "Props",
+        "optionD": "PropTypes",
+        "answer": "Props"
+      },
+      {
+        "question": "Which of the following function is used to change the state of the React.js component?",
+        "optionA": "this.setChangeState",
+        "optionB": "this.setState",
+        "optionC":  "this.State{}",
+        "optionD": "None of the above",
+        "answer": "this.setState"
+      },
+      {
+        "question": "What will happen if you render an input element with disabled = {false}?",
+        "optionA": "It will be rendered as disabled",
+        "optionB": "It will not be rendered at all",
+        "optionC":  "It will be rendered as enabled",
+        "optionD": "You cannot set it false",
+        "answer": "It will be rendered as enabled"
+      },
+      {
+        "question": "What is the usage of setState?",
+        "optionA": "Invoke code after the setState operation is done",
+        "optionB": "Replace the state completely instead of the default merge action",
+        "optionC":  "Access the previous state before the setState operation",
+        "optionD": "None of the above",
+        "answer": "Invoke code after the setState operation is done"
+      }
+  ]
+  

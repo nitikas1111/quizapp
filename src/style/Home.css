@@ -1,0 +1,84 @@
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  section {
+    background-color: #333;
+    padding: 60px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Increased width for larger screens */
+    transition: all 0.3s;
+  }
+  
+  section:hover {
+    transform: scale(1.05); /* Add a hover effect for a better UX */
+  }
+  
+  .logo img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 3em;
+    margin: 30px 0;
+  }
+  
+  .play-button ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .play-button ul li {
+    margin: 30px 0;
+  }
+  
+  .play-button ul li a {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.5em;
+    transition: background-color 0.3s;
+  }
+  
+  .play-button ul li a:hover {
+    background-color: #45a049;
+  }
+  
+  .auth-button a {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-button a:first-child {
+    background-color: #f44336;
+  }
+  
+  .auth-button a:first-child:hover {
+    background-color: #da190b;
+  }
+  
+  .auth-button a:last-child {
+    background-color: #2196F3;
+  }
+  
+  .auth-button a:last-child:hover {
+    background-color: #0b7dda;
+  }
+  
